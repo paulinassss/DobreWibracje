@@ -1,11 +1,17 @@
 .h-wrapper {
     color: rgb(0, 19, 0);
+    background-color: #b3cd861a;
+}
+
+.nav-style {
+    border-bottom: 2px solid  rgba(129, 149, 95, 0.3);
+    background-color: #b3cd861a;
 }
 
 .h-container {
     justify-content: space-between;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .logo {
@@ -34,7 +40,6 @@
 .h-menu>* {
     position: relative;
     font-size: 1.2rem;
-    color: #004e08;
     text-decoration: none;
     letter-spacing: 1px;
 }
@@ -57,5 +62,19 @@
 
 .h-menu a:hover::before {
     transform: scale(1);
+}
+
+.phone-number {
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.phone-number>span {
+    padding: 0.5rem 1rem;
+    background-color: #b3cd861a;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: 2px solid rgba(129, 149, 95, 0.3);
+    border-top: none;
 }
 
