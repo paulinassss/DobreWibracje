@@ -32,16 +32,16 @@ const Hero = () => {
 
                         <div className="flexColStart stat">
                             <span>
-                                <CountUp start={0} end={20} duration={4}/>
+                                <CountUp start={0} end={22} duration={4}/>
                             </span>
-                            <span className="secondaryText">LAT <br /> DOŚWIADSCZENIA</span>
+                            <span className="secondaryText">LAT <br /> DOŚWIADCZENIA</span>
                         </div>
 
                         <div className="flexColStart stat">
                             <span>
-                                <CountUp start={0} end={47} duration={4}/>
+                                <CountUp start={0} end={53} duration={4}/>
                             </span>
-                            <span className="secondaryText">ZDOBYTYCH <br /> CERTYFIKATÓW</span>
+                            <span className="secondaryText">ZDOBYTE <br /> CERTYFIKATY</span>
                         </div>
                     </div>
                 </div>

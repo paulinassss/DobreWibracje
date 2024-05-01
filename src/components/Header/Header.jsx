@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="flexEnd paddings innerWidth phone-number">
-                <span><pre>Zadzwoń i umów się   +48 999 999 999</pre></span>
+                <span><pre>Zadzwoń i umów się   +48 602 243 373</pre></span>
             </div>
         </section>
     )

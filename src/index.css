@@ -60,6 +60,12 @@ a {
   justify-content: center;
   align-items: flex-start;
 }
+.flexColStart2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 .flexColEnd {
   display: flex;
   flex-direction: column;
@@ -68,17 +74,17 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: #5c5952;
   font-weight: bold;
   font-size: 2rem;
 }
 
 .secondaryText {
-  color: rgb(105, 115, 96);
+  color: #9f9a8f;
   font-size: 0.9rem;
 }
-.orangeText {
-  color: orange;
+.pinkText {
+  color: #B8B2A6;
   font-size: 1.5rem;
   font-weight: 600;
 }

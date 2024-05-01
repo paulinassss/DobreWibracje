@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Diagnoza logopedyczna",
+    "detail": "Nibh praesent tristique magna sit amet purus. Ullamcorper a lacus vestibulum sed.",
+    "image": "./pic1.png"
+  },
+  {
+    "name": "Diagnoza jakania",
+    "detail": "Cursus risus at ultrices mi tempus imperdiet nulla. Elementum facilisis leo vel fringilla est.",
+    "image": "./pic2.png"
+  },
+  {
+    "name": "Diagnoza 3",
+    "detail": "Diam quis enim lobortis scelerisque fermentum dui faucibus. A condimentum vitae sapien pellentesque habitant morbi tristique.",
+    "image": "./pic3.png"
+  },
+  {
+    "name": "Diagnoza 4",
+    "detail": "Velit aliquet sagittis id consectetur purus. Lacus vel facilisis volutpat est.",
+    "image": "./pic4.png"
+  },
+  {
+    "name": "Diagnoza 5",
+    "detail": "Laoreet id donec ultrices tincidunt arcu. Velit sed ullamcorper morbi tincidunt ornare.",
+    "image": "./pic5.png"
+  },
+  {
+    "name": "Diagnoza 6",
+    "detail": "Dui nunc mattis enim ut tellus elementum sagittis vitae et.",
+    "image": "./pic6.png"
+  }
+]

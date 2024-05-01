@@ -1,0 +1,92 @@
+.r-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.r-card {
+    gap: 0.6rem;
+    padding: 1.2rem 1.7rem;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    max-width: max-content;
+    margin: auto;
+}
+
+.r-card img {
+    width: 2.8rem;
+    margin-right: 0.8rem;
+}
+
+.name {
+    font-size: 1.2rem;
+}
+
+.flexHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.flexHead img {
+    width: 3.5rem;
+    margin-right: 1rem;
+}
+
+.heading {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.addReviewBtn {
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgba(200, 239, 157, 0.18);
+    border: 2px solid #6d6d6d6c;
+    color: rgba(23, 47, 0, 0.748);
+    transition: .3s;
+}
+
+.addReviewBtn:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+    background-color: rgba(199, 239, 157, 0.38);
+}
+
+.num {
+    margin-left: 0.2rem;
+}
+
+.r-buttons button {
+    z-index: 1;
+    background: none;
+    border: none;
+    font-weight: 900;
+    color:#6d6d6d6c;
+    transform: scale(1.3);
+    transition: .3s;
+}
+.prevBtn {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.nextBtn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.r-buttons button:hover {
+    transform: scale(2);
+    color: #5151516c;
+    cursor: pointer;
+}

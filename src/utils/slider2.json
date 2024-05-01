@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Rodzaj 1",
+    "detail": "Fames ac turpis egestas maecenas pharetra convallis. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque.",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Rodzaj 2",
+    "detail": "Lorem mollis aliquam ut porttitor leo a. Turpis egestas sed tempus urna et pharetra pharetra.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Rodzaj 3",
+    "detail": "Et malesuada fames ac turpis. Elit at imperdiet dui accumsan.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Rodzaj 4",
+    "detail": "Semper eget duis at tellus at urna condimentum mattis. Accumsan lacus vel facilisis volutpat est velit.",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Rodzaj 5",
+    "detail": "Nisi vitae suscipit tellus mauris a diam maecenas sed. Amet nisl purus in mollis nunc sed id semper risus.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Rodzaj 6",
+    "detail": "Volutpat consequat mauris nunc congue nisi vitae suscipit. Quis hendrerit dolor magna eget.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Rodzaj 7",
+    "detail": "Praesent tristique magna sit amet purus. Risus commodo viverra maecenas accumsan lacus.",
+    "image": "./r3.png"
+  }
+]
