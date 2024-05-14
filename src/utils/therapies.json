@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Terapia logopedyczna",
+        "duration": "45 minut",
+        "includes": [
+            "Terapię  wad wymowy i zaburzeń artykulacyjnych",
+            "Usprawnianie aparatu artykulacyjnego",
+            "Usprawnianie funkcji oddechowych",
+            "Usprawnianie funkcji słuchowych (słuchu fonematycznego, pamięci i uwagi słuchowej, percepcji słuchowej)",
+            "Rozwijanie umiejętności budowania wypowiedzi poprawnych pod względem gramatycznym, stylistycznym i składniowym",
+            "Wzbogacanie zasobu słownictwa",
+            "Praca nad koncentracją uwagi",
+            "Naukę pisania i czytania dotychczas nieprawidłowo wymawianych głosek"
+        ],
+        "description": null,
+        "target": []
+    },
+
+    {
+        "name": "Terapia miofunkcjonalna",
+        "duration": "30 minut",
+        "includes": [],
+        "description": "Polega na normalizacji prawidłowego przebiegu funkcji   biologicznych w obrębie narządu żucia poprzez budowanie prawidłowego napięcia mięśniowego w jamie ustnej oraz naukę podstawowych funkcji orofacjalnych (prawidłowego żucie, gryzienie, połykanie, oddychania).",
+        "target": [
+            "dzieci",
+            "młodzieży",
+            "osób dorosłych"
+        ]
+    },
+
+    {
+        "name": "Terapia logopedyczna lub neurologopedyczna połączona z terapią miofunkcjonalną",
+        "duration": "45 minut",
+        "includes": [],
+        "description": null,
+        "target": []
+    },
+
+    {
+        "name": "Terapia neurologopedyczna",
+        "duration": "45 minut",
+        "includes": [
+            "Sesję terapeutyczną",
+            "Czas na rozmowę z rodzicem/ opiekunem/ dorosłym pacjentem, w celu ukierunkowania pracy w domu"
+        ],
+        "description": null,
+        "target": [
+            "osób z opóźnionym rozwojem mowy",
+            "osób z afazją dziecięcą",
+            "osób z afazją dorosłych powstałą na skutek urazów czy udarów",
+            "osób z niedosłuchem",
+            "osób z zaburzeniami ze spektrum autyzmu – autyzm, Zespół Aspergera",
+            "osób z mutyzmem wybiórczym",
+            "osób z niepełnosprawnością intelektualną",
+            "osób z zaburzeniami mowy i komunikacji różnego pochodzenia",
+            "osób z niedosłuchem",
+            "osób z mutyzmem wybiórczym",
+            "osób z afazją dziecięcą",
+            "osób z dyzartrią",
+            "osób z afazją i dyzartrią u dorosłych w wyniku urazów czy udarów",
+            "osób z zaburzonym rozwojem mowy",
+            "osób z trudnościami w rozwoju komunikacji"
+        ]
+    },
+
+    {
+        "name": "Terapia jąkania i innych niepłynności mowy",
+        "duration": null,
+        "includes": [],
+        "description": null,
+        "target": [
+            "małych dzieci i ich rodziców - terapia pośrednia, terapia bezpośrednia",
+            "dzieci, młodzieży i dorosłych",
+            "możliwość organizowania grupowej terapii jąkania"
+        ]
+    }
+]

@@ -10,7 +10,7 @@ import StarIcon from '@mui/icons-material/Star';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
-const libraries = ["places"]; // IMPORTING 'PLACES' LIBRARY FROM GOOGLE MAPS
+const libraries = ["places"];
 const link = 'https://www.google.com/search?sca_esv=0843bae45ef7a677&sca_upv=1&hl=pl&tbm=lcl&sxsrf=ACQVn08N5IDK2ylQnutovcgnk86-u2Wj2A:1714565617828&q=Dobre%20Wibracje%20-%20Gabinet%20Neurologopedyczny%20-%20Ma%C5%82gorzata%20Kindlik%20Opinie&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NzOztDQ3MjEzMLWwNDexMDIx3MDI-IrR3SU_qShVITwzqSgxOStVQVfBPTEpMy-1RMEvtbQoPyc_Pb8gNaUyuSqvEijnm3i0KT2_qCqxJFHBOzMvJSczW8G_IDMvM3URK7VMAgCm6QH1rgAAAA&rldimm=7669972460589748241&sa=X&ved=0CAkQ5foLahcKEwjAg77VtuyFAxUAAAAAHQAAAAAQBQ&biw=2560&bih=1353&dpr=1#lkt=LocalPoiReviews&arid=ChdDSUhNMG9nS0VJQ0FnSURqc3BfWXpnRRAB';
 
 function Reviews() {
@@ -18,18 +18,17 @@ function Reviews() {
 	const [rating, setRating]= useState([]);
 	const [number, setNumber]= useState([]);
 	const { isLoaded, loadError } = useLoadScript({
-		// TO GET API KEY VISIT: https://developers.google.com/maps/documentation/javascript/get-api-key
-		googleMapsApiKey: "AIzaSyBikQnc5NVbGGjZSVD26kn-uj-02-jrpds", // PUT YOUR API KEY OF PROJECT CREATED IN GOOGLE CLOUD CONSOLE
+		googleMapsApiKey: "AIzaSyBikQnc5NVbGGjZSVD26kn-uj-02-jrpds",
 		libraries,
 	});
 
 	useEffect(() => {
 		if (isLoaded && !loadError) {
-			const mapDiv = document.createElement("div"); // CREATING A DIV ELEMENT TO HOST SERVICE
+			const mapDiv = document.createElement("div"); 
 			mapDiv.style.display = "none";
 			document.body.appendChild(mapDiv);
 
-			const service = new google.maps.places.PlacesService(mapDiv); // INITIALIZING PLACES SERVICE
+			const service = new google.maps.places.PlacesService(mapDiv); 
 			service.getDetails(
 				{
 					// TO GET PLACE ID VISIT: https://developers.google.com/maps/documentation/places/web-service/place-id

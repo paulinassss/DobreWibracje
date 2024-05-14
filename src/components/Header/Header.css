@@ -1,10 +1,9 @@
 .h-wrapper {
     color: rgb(0, 19, 0);
-    background-color: #FDFDF6;
 }
 
 .nav-style {
-    border-bottom: 2px solid  rgb(255, 175, 188, 0.3);
+    background-color: rgb(248, 255, 242);
 }
 
 .h-container {
@@ -33,7 +32,7 @@
 }
 
 .h-menu {
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .h-menu>* {
@@ -71,12 +70,11 @@
     padding-bottom: 1rem;
 }
 
-.phone-number>span {
+.phone-number>div {
     padding: 0.5rem 1rem;
-    background-color: rgba(255, 175, 188, 0.05);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    border: 2px solid rgba(255, 175, 188, 0.3);
+    border: 2px solid rgb(216, 230, 205);
     border-top: none;
     letter-spacing: 0.07rem;
 }

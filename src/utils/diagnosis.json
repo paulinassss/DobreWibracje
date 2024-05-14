@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Podstawowa diagnoza logopedyczna",
+        "duration": "60 minut",
+        "includes": [
+            {
+                "name": "Wywiad z rodzicem w postaci ankiety online, w razie potrzeby uzupełniony podczas spotkania",
+                "duration": null,
+                "description": null
+            },
+
+            {
+                "name": "Badanie mowy",
+                "duration": null,
+                "description": null
+            },
+
+            {
+                "name": "Omówienie wyników badania mowy",
+                "duration": null,
+                "description": null
+            } 
+        ],
+        "description": null
+    },
+
+    {
+        "name": "Pogłębiona diagnoza neurologopedyczna (po diagnozie podstawowej)",
+        "duration": "90 minut",
+        "includes": [
+            {
+                "name": "Diagnoza neurologopedyczna",
+                "duration": null,
+                "description": null
+            },
+
+            {
+                "name": "Omówienie wyników diagnozy",
+                "duration": null,
+                "description": null
+            },
+
+            {
+                "name": "Udzielenie wskazówek i ewentualnych zaleceń dotyczących dalszych konsultacji specjalistycznych",
+                "duration": null,
+                "description": null
+            }
+        ],
+        "description": "Diagnoza skierowana jest do dzieci z opóźnionym rozwojem mowy, podejrzeniem afazji, osób z afazją i innymi zaburzeniami mowy i komunikacji różnego pochodzenia. Zalecana jest po diagnozie podstawowej w uzasadnionych przypadkach, jako rozszerzenie i pogłębienie badania neurologopedycznego."
+    },
+
+    {
+        "name": "Diagnoza niepłynności mówienia dzieci do 7 roku życia (jąkanie)",
+        "duration": "od 60 minut",
+        "includes": [
+            {
+                "name": "Wywiad przesiewowy",
+                "duration": "30 minut",
+                "description": "Wyniki badania przesiewowego pozwolą ustalić, czy zalecana jest jedynie porada dla rodziców dotycząca postępowania wobec dziecka z epizodami niepłynności mowy, czy też konieczne jest przeprowadzenie bardziej szczegółowej diagnozy oraz rozpoczęcie terapii dla całej rodziny."
+            },
+
+            {
+                "name": "Omówienie wyników - jeśli nie ma konieczności pogłębionej diagnozy i terapii",
+                "duration": "30 minut",
+                "description": null
+            },
+
+            {
+                "name": "Wywiad z rodzicami pełny -  kontynuacja po wywiadzie przesiewowym",
+                "duration": "60 minut",
+                "description": "Wywiad ma na celu uzyskanie pełnego obrazu sytuacji dziecka oraz jego otoczenia, co umożliwia dostosowanie dalszych działań terapeutycznych i jest niezbędnym elementem do podjęcia skutecznej terapii."
+            },
+
+            {
+                "name": "Diagnoza dziecka",
+                "duration": "90 minut",
+                "description": "Kompleksowa ocena poziomu rozwoju mowy dziecka, obejmująca analizę jego zdolności komunikacyjnych, obraz niepłynności mowy, ewentualne trudności artykulacyjne, w celu określenia optymalnego planu terapeutycznego. Jest to punkt wyjścia do rozpoczęcia terapii."
+            },
+
+            {
+                "name": "Omówienie wyników",
+                "duration": "30 minut",
+                "description": null
+            }
+
+        ],
+        "description": "Wywiad mający na celu ocenę epizodów niepłynności mowy u dzieci oraz ustalenie dalszych kroków diagnostycznych i terapeutycznych."
+    },
+
+    {
+        "name": "Diagnoza jąkania i innych niepłynności mowy dla dorosłych",
+        "duration": "150 minut",
+        "includes": [
+            {
+                "name": "Wywiad",
+                "duration": "45 minut",
+                "description": null
+            },
+
+            {
+                "name": "Diagnoza jąkania - niepłynności mowy",
+                "duration": "60 minut",
+                "description": null
+            },
+
+            {
+                "name": "Omówienie wyników diagnozy, zalecenia",
+                "duration":"45 minut",
+                "description": null
+            }
+        ],
+        "description": null
+    }
+]

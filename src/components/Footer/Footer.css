@@ -1,0 +1,45 @@
+.contact-wrapper {
+    margin-top: 3rem;
+    background-color: rgb(248, 255, 242);
+}
+
+.flexInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.4rem;
+    margin-left: 3rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contactEl {
+    font-size: 1.2rem;
+    color: rgb(21, 21, 21);
+    letter-spacing: 0.1rem;
+}
+
+
+.icon {
+    color: rgba(30, 113, 0, 0.579);
+    transform: scale(1.5);
+    margin-right: 2rem;
+}
+
+.flexInfo a {
+    padding: 0.2rem;
+}
+
+.flexInfo a:hover {
+    background-color: rgba(236, 236, 236, 0.75);
+    border-radius: 5px;
+}
+
+.flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin-top: 5rem;
+}

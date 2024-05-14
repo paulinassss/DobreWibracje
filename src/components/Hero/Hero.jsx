@@ -7,18 +7,16 @@ const Hero = () => {
         <section className="hero-wrapper">
             <div className="paddings innerWidth flexCenter hero-container">
                 {/* left side */}
-                <div className="hero-left">
+                <div className="flexColStart hero-left">
                     <div className="hero-title">
                         <h1>
-                            Odkryj <br />
-                            moc swojego <br />
-                            głosu
+                            Odkryj moc<br />
+                            swojego głosu
                         </h1>
                     </div>
 
                     <div className="flexColStart hero-description">
-                        <span className="secondaryText">Interdum velit laoreet id donec ultrices tincidunt arcu non sodales.</span>
-                        <span className="secondaryText">Leo vel fringilla est ullamcorper. Integer feugiat scelerisque varius morbi.</span>
+                        <span className="secondaryText">Zapraszamy do naszego nowo otwartego gabinetu neurologopedycznego w Lublinie, gdzie specjalizujemy się w terapiach skierowanych na poprawę komunikacji i mowy.</span>
                     </div>
 
                     <div className="flexStart stats">
@@ -44,11 +42,15 @@ const Hero = () => {
                             <span className="secondaryText">ZDOBYTE <br /> CERTYFIKATY</span>
                         </div>
                     </div>
+
+                    <div className="button-container">
+                        <button className="contact-button">UMÓW SIĘ NA WIZYTĘ </button>
+                    </div>
                 </div>
                 {/* right side */}
                 <div className="flexCenter hero-right">
                     <div className="image-container">
-                        <img src="./heroImage.png" alt=""/>
+                        <img src="./pic1.png" alt=""/>
                     </div>
                 </div>
             </div>

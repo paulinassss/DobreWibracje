@@ -7,7 +7,7 @@ const Timeline = () => {
         <section className="flexCenter t-wrapper">
             <div className="innerWidth paddings flexSpace">
                 <div>
-                    <h2>Diagnozy</h2>
+                    <div className="ti">Diagnozy</div>
                     <ul className="flexColStart2 diag diag1">
                         <li><span>Podstawowa diagnoza logopedyczna</span></li>
                         <li><span>Diagnoza logopedyczna z oceną miofunkcjonalną</span></li>
@@ -16,7 +16,7 @@ const Timeline = () => {
                     </ul>
                 </div>
                 <div>
-                    <h2>Terapie</h2>
+                    <div className="ti">Terapie</div>
                     <ul className="flexColStart2 diag diag2">
                         <li><span>Terapia logopedyczna</span></li>
                         <li><span>Terapia miofunkcjonalna</span></li>

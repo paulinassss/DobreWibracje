@@ -1,0 +1,76 @@
+@import "@fortawesome/fontawesome-free/css/all";
+
+.about-wrapper {
+    position: relative;
+}
+
+.about-container {
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.regularText {
+    color: #9f9a8f;
+    font-size: 1.5rem;
+}
+
+.mainContent {
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.mainContent>p {
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #5c5952;
+}
+
+.quote {
+  text-align: center;
+}
+
+.highlight:before {
+  content: open-quote;
+}
+
+.highlight:after {
+  content: close-quote;
+}
+
+.highlight:before,
+.highlight:after {
+  display: inline-block;
+  margin: 0.3rem;
+  vertical-align: bottom;
+  color: orange;
+  font-size: 2em;
+  top: .2em;
+  position: relative;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #5c5952;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ol .title::before {
+  content: '\f0da';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: rgb(140, 185, 72);
+  margin-right: 0.8rem;
+}
+
+ul li {
+  margin-left: 2rem;
+}

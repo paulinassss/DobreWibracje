@@ -1,0 +1,256 @@
+[
+    {
+        "name": "Miogopedia – terapia miofunkcjonalna praktycznie",
+        "details": "Mgr Aleksandra Rosińska, 25-26.03.2023r., 20 godzin"
+    },
+
+    {
+        "name": "Terapia miofunkcjonalna w ujęciu tensegracyjnym",
+        "details": "Piotr Żerebiec, Andrzej Czapłygin, 28-29.01.2023, 18 godzin"
+    },
+
+    {
+        "name": "MFT 9-99 sTArs – Miofunkcjonalna Terapia dla osób w wieku 9 – 99",
+        "details": "Ze specjalną terapią artykulacji s-sz wg. A. Kittel, 26-27.11.2022r."
+    },
+
+    {
+        "name": "Ocena funkcjonalna traktu ustno – twarzowego. Mioterapia – podejście autorskie",
+        "details": "Mgr Ewelina Mendala – Kwoczek, 08-09.01.2022r., 17 godzin"
+    },
+
+    {
+        "name": "Skojarzenia do mówienia",
+        "details": "Mgr Ewa Grzelak, 29.09.2021r."
+    },
+
+    {
+        "name": "Terapia nadmiernego ślinienia w logopedii",
+        "details": "Mgr Aleksandra Rosińska, 26.09.2021r., 3 godziny"
+    },
+
+    {
+        "name": "FTM – Fizjologiczna terapia miofunkcjonalna (terapia zaburzeń ustnej fazy połykania i oddychania dzieci od 4 roku życia z dyslalią obwodową)",
+        "details": "Prof. UŚ dr hab. Danuta Pluta Wojciechowska, 12.06.2021r., 12 godzin"
+    },
+
+    {
+        "name": "Terapeuta orofacjalny z pasją",
+        "details": "Mgr Marcelina Przeździęk, mgr Aleksandra Kaczyńska, 9-30.04.2021r., 25 godzin"
+    },
+
+    {
+        "name": "Terapeuta karmienia z pasją",
+        "details": "Dr Jolanta Uchman, mgr Aleksandra Kaczyńska, mgr Agata Kalina, 9-30.04.2021r., 30 godzin"
+    },
+
+    {
+        "name": "Masaż logopedyczny strefy orofacjalnej",
+        "details": "18.03.2021r. mgr Sabina Szober"
+    },
+
+    {
+        "name": "Motywacja i inspiracja, Najważniejsze narzędzia nauczyciela",
+        "details": "03.2021r., prof. Jacek Pyżalski"
+    },
+
+    {
+        "name": "Nie patrzy, nie słucha, nie mówi! Od czego zacząć? – diagnoza i trening bazowych umiejętności komunikacyjnych.",
+        "details": "Dr nauk hum. Marzena Machoś, 12.12.2021r., 8 godzin"
+    },
+
+    {
+        "name": "Wybiórczość pokarmowa u dzieci z zaburzeniami integracji sensorycznej",
+        "details": "Mgr Marta Baj-Lieder, 04.12.2021r., 4 godziny"
+    },
+
+    {
+        "name": "Opóźniony rozwój mowy. Kreatywne postępowanie logopedyczne",
+        "details": "Mgr Agata Gładowicz – Bojarska, 19-20.12.2021r., 10 godzin"
+    },
+
+    {
+        "name": "Wędzidełko okiem praktyka",
+        "details": "Mgr Aleksandra Rosińska, 07.10.2020r."
+    },
+
+    {
+        "name": "Szkolenie dotyczące Zespołu Aspergera",
+        "details": "Fundacja Synapsis, 02-03.02.2019r., 19 godzin"
+    },
+
+    {
+        "name": "Terapia interakcyjna rodzic – dziecko dla jąkających się dzieci w wieku do lat 7 – Palin PCI",
+        "details": "Dr hab. Katarzyna Węsierska, 18-20.01.2019r., 20 godzin"
+    },
+
+    {
+        "name": "Trening umiejętności społecznych dla uczniów z autyzmem i Zespołem Aspergera",
+        "details": "Kurs doskonalący, 23.01.2018r., 8 godzin"
+    },
+
+    {
+        "name": "Uczeń z dysleksją w edukacji podstawowej",
+        "details": "Międzynarodowa konferencja, 28.09.2018r."
+    },
+
+    {
+        "name": "Diagnoza i terapia rozwoju społeczno-emocjonalnego osób z zaburzeniami ze spektrum autyzmu",
+        "details": "27.03.2017r., 8 godzin"
+    },
+
+    {
+        "name": "Terapia sygmatyzmu międzyzębowego",
+        "details": "mgr Anna Balewska, 18.11.2017r."
+    },
+
+    {
+        "name": "Afazja- dzieci. Niedokształcenie mowy o typie afazji i dzieci. Diagnoza i terapia",
+        "details": "Mgr Elżbieta Drewniak-Wołosz, mgr Anna Paluch, 03-04.12.2016r., 18 godzin"
+    },
+
+    {
+        "name": "Terapia niedyrektywna dzieci autystycznych i dzieci z zaburzeniami zachowania",
+        "details": "Kurs, dr Maria Piszczek, 12-13.03.2016, 02-03.04.2016r., 32 godziny"
+    },
+
+    {
+        "name": "Konstruowanie opinii i orzeczeń w poradni psychologiczno-pedagogicznej",
+        "details": "Konferencja, 18 godzin"
+    },
+
+    {
+        "name": "Warsztaty z zakresu budowania strategii ułatwiających komunikację z pacjentami przy wykorzystaniu pomocy wizualnych np. AAC w pracy z młodzieżą i dorosłymi osobami z problemami w porozumiewaniu się",
+        "details": "Stowarzyszenie Pomocy Dzieciom Niepełnosprawnym \"Krok za krokiem\" w Zamościu, 30.11-03.12.2015r."
+    },
+
+    {
+        "name": "Autyzm wyzwanie czy zagadka XXI wieku",
+        "details": "Warsztaty metodyczne, 30.05.2015r."
+    },
+
+    {
+        "name": "Rozwijanie komunikacji u osób z autyzmem",
+        "details": "Mgr Magdalena Tarnawska, 22-23.03.2015r., 18 godzin"
+    },
+
+    {
+        "name": "Cykl szkoleń dotyczących wspomagania pracy szkół realizowanych w zakresie zadań Szkolnych organizatorów Rozwoju Edukacji",
+        "details": "13.03-20.05.2014r., 112 godzin"
+    },
+
+    {
+        "name": "Diagnoza i terapia dzieci z autyzmem i Zespołem Aspergera”dr Marta Korendo",
+        "details": "Mgr Katarzyna Sedivy, 17-18.04.2010r."
+    },
+
+    {
+        "name": "Dziecko z rozszczepem wargi i podniebienia: leczenie wielospecjalistyczne, diagnoza i terapia zaburzeń mowy",
+        "details": "Dr hab. Danuta Pluta–Wojciechowska, 24-25.03.2012, 16 godzin"
+    },
+    
+    {
+        "name": "Logopedyczne warsztaty naukowo–szkoleniowe „Diagnoza i terapia jąkania i innych niepłynności mówienia z uwzględnieniem konsekwentnej współpracy z rodziną” stopień pierwszy i drugi",
+        "details": "Dr nauk hum. Mieczysław Chęciek, 22-24.02.2008, 26 godzin"
+    },
+
+    {
+        "name": "Logopedyczne warsztaty naukowo–szkoleniowe „Diagnoza i terapia jąkania i innych niepłynności mówienia z uwzględnieniem konsekwentnej współpracy z rodziną” stopień pierwszy i drugi – praktyczny",
+        "details": "Dr nauk hum. Mieczysław Chęciek, 30.09-02.10.2011, 26 godzin"
+    },
+
+    {
+        "name": "Kompleksowa terapia jąkania",
+        "details": "Niepubliczne Studium Edukacji Nauczycieli w Bydgoszczy, 13.04.2008, 50 godzin"
+    },
+
+    {
+        "name": "Wybrane elementy emisji głosu w pracy nauczyciela",
+        "details": "LSCDN, 6 godzin" 
+    },
+
+    {
+        "name": "Wczesna diagnoza i terapia dziecka z wadą słuchu",
+        "details": "Dr Anna Prożych, 10-11.11.2007, 16 godzin"
+    },
+
+    {
+        "name": "Konferencja naukowo-szkoleniowa „Możliwości terapii dzieci z wczesnym uszkodzeniem mózgu w wieku od 1-ego do 6-ego roku życia i wsparcie ich rodzin.”",
+        "details": "01-02.12.2006"
+    },
+
+    {
+        "name": "Motywowanie uczniów do nauki i zmiany w zachowaniu",
+        "details": "Dr Jakub Kołodziejczyk, 10.10.2008, 5 godzin"
+    },
+
+    {
+        "name": "Badania przesiewowe narządów zmysłów",
+        "details": "Instytut Fizjologii i Patologii Słuchu,05-06.12.2008"
+    },
+
+    {
+        "name": "III Międzynarodowa Konferencja Logopedyczna we Wrocławiu „Logopedia u progu XXI wieku”",
+        "details": "21-23.09.2007"
+    },
+
+    {
+        "name": "Kurs Języka Migowego I stopnia",
+        "details": "26.01.2007, 60 godzin"
+    },
+
+    {
+        "name": "Kurs doskonalący „Dysleksja rozwojowa. Terapia pedagogiczna młodszych dzieci dyslektycznych, część III”",
+        "details": "Polskie Towarzystwo Dysleksji, 11.02.2001, 25 godzin"
+    },
+
+    {
+        "name": "Kurs doskonalący „Dysleksja rozwojowa. Terapia pedagogiczna młodszych dzieci dyslektycznych, część IV”",
+        "details": "Polskie Towarzystwo Dysleksji, 18.03.2001, 25 godzin"
+    },
+
+    {
+        "name":  "Kurs wstępny „Pedagogika zabawy – wprowadzenie do aktywnych metod pracy z grupą z zastosowaniem pedagogiki zabawy”",
+        "details": "25-27.04.1997"
+    },
+
+    {
+        "name": "Warsztaty umiejętności wychowawczych z wykorzystaniem technik aktywizujących dla potrzeb opiekunów grup turystycznych",
+        "details": "Polskie Stowarzyszenie Pedagogów Zabawy KLANZA, 19-20.06.1998, 20 godzin"
+    },
+
+    {
+        "name": "Kurs przygotowawczy kandydatów na wychowawców placówek wypoczynku dla dzieci i młodzieży",
+        "details": "23.11.-08.12.1996"
+    },
+
+    {
+        "name": "Szkolenia organizowane przez Lubelski Oddział Polskiego Towarzystwa Logopedycznego „Diagnostyka audiologiczna i metody leczenia zaburzeń słuchu”",
+        "details":  "Lic. Beata Ciesielska–logopeda, audiolog, lic. Kamila Dębińska–logopeda, audiolog, 25.03.2011"
+    },
+
+    {
+        "name": "Wczesna diagnoza logopedyczna dzieci zagrożonych nieprawidłowym rozwojem mowy",
+        "details": "Dr Elżbieta Stecko, 24.10.2011" 
+    },
+
+    {
+        "name": "Postaci kliniczne opóźnionego rozwoju mowy",
+        "details": "Dr Elżbieta Stecko, 25.10.2011"
+    },
+
+    {
+        "name": "Metoda integracji sensorycznej",
+        "details": "Mgr Agnieszka Zdzienicka–Chyła, 13.11.2013"
+    },
+
+    {
+        "name": "Wczesna stymulacja dziecka z zaburzeniami w rozwoju",
+        "details": "Mgr Zofia Skrzymowska, 17.10.2008"
+    },
+
+    {
+        "name": "Relaksacja w logopedii",
+        "details": "Dr Iwona Gryniuk, 24.09.2007"
+    }
+]
