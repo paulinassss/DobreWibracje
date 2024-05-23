@@ -10,6 +10,7 @@ import StarIcon from '@mui/icons-material/Star';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
+
 const libraries = ["places"];
 const link = 'https://www.google.com/search?sca_esv=0843bae45ef7a677&sca_upv=1&hl=pl&tbm=lcl&sxsrf=ACQVn08N5IDK2ylQnutovcgnk86-u2Wj2A:1714565617828&q=Dobre%20Wibracje%20-%20Gabinet%20Neurologopedyczny%20-%20Ma%C5%82gorzata%20Kindlik%20Opinie&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NzOztDQ3MjEzMLWwNDexMDIx3MDI-IrR3SU_qShVITwzqSgxOStVQVfBPTEpMy-1RMEvtbQoPyc_Pb8gNaUyuSqvEijnm3i0KT2_qCqxJFHBOzMvJSczW8G_IDMvM3URK7VMAgCm6QH1rgAAAA&rldimm=7669972460589748241&sa=X&ved=0CAkQ5foLahcKEwjAg77VtuyFAxUAAAAAHQAAAAAQBQ&biw=2560&bih=1353&dpr=1#lkt=LocalPoiReviews&arid=ChdDSUhNMG9nS0VJQ0FnSURqc3BfWXpnRRAB';
 
@@ -52,7 +53,7 @@ function Reviews() {
 	}, [isLoaded, loadError]);
 
 	return (
-		<section className="reviews-wrapper">
+		<section id="reviews" className="reviews-wrapper">
 			 <div className="paddings innerWidth r-container">
 				<div className="flexHead">
 					<div className="flexColStart">
@@ -79,10 +80,13 @@ function Reviews() {
 						</div>
 					</div>
 					
-					<div>
+					<div className="firstButton">
 						<a href={link} target="_blank"><button className="addReviewBtn">Dodaj opinię</button></a>
 					</div>
 				    
+				</div>
+				<div className="secondButton">
+					<button className="addReviewBtn"><a href={link} target="_blank">Dodaj opinię</a></button>
 				</div>
 				<Swiper {...sliderSettings}>
 					<SliderButtons/>

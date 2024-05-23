@@ -13,14 +13,14 @@ const link = 'https://www.google.com/search?sca_esv=0843bae45ef7a677&sca_upv=1&h
 const Footer = () => {
     let year = new Date().getFullYear();
     return (
-      <section className="contact-wrapper">
+      <section id="contact" className="contact-wrapper">
         <div className="paddings innerWidth c-container">
-          <div className="flexSpaceBetween">
-            <div className="flexCenter logo">
+          <div className="flexSpaceBetween contact-options">
+            <div className="flexCenter logo logo-footer">
                 <img src="logo.png" alt="logo" height={65}/>
                 <div>Dobre wibracje</div>
             </div>
-            <div className="flexStart">
+            <div className="flexStart el-container">
               <div className="flexInfo">
                 <div>
                   <Stack alignItems="center" direction="row" gap={0.5}>

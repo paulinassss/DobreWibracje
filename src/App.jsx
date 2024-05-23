@@ -5,6 +5,7 @@ import Reviews from "./components/Reviews/Reviews";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {

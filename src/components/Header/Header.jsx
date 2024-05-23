@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import './Header.css';
+import {BiMenuAltRight} from 'react-icons/bi';
+import OutsideClickHandler from "react-outside-click-handler";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
+    const [menuOpened, setMenuOpened] = useState(false);
+
+    const getMenuStyles = (menuOpened) => {
+        if (document.documentElement.clientWidth <= 1022){
+            return {right: !menuOpened && "-100%"}
+        }
+    }
     return (
         <section className="h-wrapper">
             <div className="nav-style">
@@ -13,11 +23,20 @@ const Header = () => {
                             <div>Dobre wibracje</div>
                         </div>
                     </a>
-                    <div className="flexCenter h-menu">
-                        <Link to="/">Strona główna</Link>
-                        <Link to="/about">O mnie</Link>
-                        <Link to="/services">Oferta</Link>
-                        <Link to="/contact">Kontakt</Link>
+
+                    <OutsideClickHandler onOutsideClick={()=>{
+                        setMenuOpened(false);
+                    }}>
+                        <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
+                            <Link to="/">Strona główna</Link>
+                            <Link to="/about">O mnie</Link>
+                            <Link to="/services">Oferta</Link>
+                            <HashLink to="#contact">Kontakt</HashLink>
+                        </div>
+                    </OutsideClickHandler>
+
+                    <div className="menu-icon" onClick={()=>setMenuOpened((prev)=>!prev)}>
+                        <BiMenuAltRight size={40} style = {{color: 'darkgreen'}}/>
                     </div>
                 </div>
             </div>

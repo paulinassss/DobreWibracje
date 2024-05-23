@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section className="about-wrapper">
             <div className="paddings innerWidth about-container">
-                <div className="flexCenter">
+                <div className="flexCenter a-container">
                     <div className="hero-left">
                         <div className="hero-title">
                             <h1 className="highlight">
@@ -15,17 +15,17 @@ const About = () => {
                             </h1>
                         </div>
                         <div className="flexColStart">
-                            <span className="regularText">Jestem neurologopedką, pedagożką, terapeutką  <br /> 
+                            <span className="regularText">Jestem neurologopedką, pedagożką, terapeutką
                                 miofunkcjonalną i terapeutką karmienia. Do swojej pracy przez całe życie podchodziłam z pasją i wielkim zaangażowaniem. Jestem osobą, która robi coś na „maxa”, albo nie robi wcale. 
                         </span>
                         </div>
                     </div>
                     <div className="flexCenter hero-right">
-                            <div className="image-container">
-                                <img src="./myPic.png" alt="picture of a woman"/>
-                            </div>
+                        <div className="image-container">
+                            <img src="./myPic.png" alt="picture of a woman"/>
                         </div>
-                    </div> 
+                    </div>
+                </div> 
                 <div className='mainContent regularText'>
                     <p className="highlight quote">
                         Holistyczne podejście do człowieka i jego problemu to najskuteczniejsza forma pomocy.

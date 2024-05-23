@@ -29,6 +29,19 @@ li {
     margin-bottom: 0.5rem;
 }
 
+.ans {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+}
+
+.ans_open {
+    max-height: fit-content;
+}
+
+.answer-divider {
+    border-top: 1px solid lightgray;
+  }
 .mainList>li::before {
     content: '\f00c';
     font-family: 'Font Awesome 5 Free';

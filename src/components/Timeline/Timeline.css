@@ -23,7 +23,7 @@
     margin-right: 0.8rem;
 }
 
-.ti::after {
+.diag li::after {
     content: '\f054';
     font-family: 'Font Awesome 5 Free';
     font-weight: 1000;
@@ -32,24 +32,6 @@
     font-size: 1.3rem;
 }
 
-.ti:hover{
-    cursor: pointer;
-    transform: scale(1.01);
-}
-.ti::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    transform: scale(0);
-    background-color: var(--primary);
-    transition: transform ease .4s;
-}
-.ti:hover::before {
-    transform: scale(1);
-}
 
 .diag li::before {
     content: '';
@@ -128,6 +110,26 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .flexSpace {
+        flex-direction: column;
+    }
+    .t-wrapper {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .flexSpace {
+        gap: 2rem;
+    }
+    
+}
+
+@media (max-width: 440px) {
+    .diag li {
+        font-size: 1.2rem!important;
+    }
 }
 
 
