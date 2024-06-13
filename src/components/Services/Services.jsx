@@ -1,65 +1,70 @@
 import './Services.css';
 import diagnosis from "../../utils/diagnosis.json";
 import therapies from "../../utils/therapies.json";
-import { useState } from "react";
+import { Accordion, AccordionItem } from '@szhsin/react-accordion';
+import chevronDown from '../../../public/chevron.svg';
+import { useState } from 'react';
+import ScrollToTop from "./components/ScrollToTop";
 
 const Services = () => {
-
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleAccordion = () => {
-    setIsOpen(!isOpen);
-    };
-
     return ( 
         <section className="services-wrapper">
             <div className="paddings innerWidth flexColCenter services-container">
                 <h1>Diagnozy</h1>
-                <ul className='mainList'>
+                <Accordion transition transitionTimeout={250} className='mainList'>
                     {
                         diagnosis.map((diag, i) => {
                             let el_id = `diag${i}`;
+                            const [rotateChevron, setRotateChevron] = useState(false);
+                            const handleRotate = () => setRotateChevron(!rotateChevron);
                             return (
-                                <li key={i} id={el_id} className='item'>
-                                    <div className="diagName" onClick={toggleAccordion()}>{diag.name}</div>
-                                    <div className={isOpen ? `ans ans_open` : `ans`}>
-                                        <p className="regularText">Czas trwania: {diag.duration}</p>
-                                        <p className="regularText">Spotkanie obejmuje: </p>
-                                        <ul className='includesList'>
-                                            {
-                                                (diag.includes).map((item, j) => {
-                                                    return (
-                                                        <li key={j}>
-                                                            <span className="regularText">{item.name}</span>
-                                                            {
-                                                                item.duration ? <p className="regularText">Czas trwania: {item.duration}</p>: null
-                                                            }
-                                                            {
-                                                                item.description ? <p className="regularText">Opis: {item.description}</p>: null
-                                                            }
-                                                        </li>
-                                                    )
-                                                })
-                                            }
-                                        </ul>
+                                <AccordionItem key={i} id={el_id} onClick={handleRotate} className='item' header={
+                                    <>
+                                    {diag.name}
+                                    <img src={chevronDown} className={`chevron-icon ${rotateChevron ? "rotate" : ""}`}/>
+                                    </>
+                                }>
+                                    <p className="regularText">Czas trwania: {diag.duration}</p>
+                                    <p className="regularText">Spotkanie obejmuje: </p>
+                                    <ul className='includesList'>
                                         {
-                                            diag.description ? <p className='regularText'>Opis: {diag.description}</p> : null
+                                            (diag.includes).map((item, j) => {
+                                                return (
+                                                    <li key={j}>
+                                                        <span className="regularText">{item.name}</span>
+                                                        {
+                                                            item.duration ? <p className="regularText">Czas trwania: {item.duration}</p>: null
+                                                        }
+                                                        {
+                                                            item.description ? <p className="regularText">{item.description}</p>: null
+                                                        }
+                                                    </li>
+                                                )
+                                            })
                                         }
-                                    </div>
-                                    <br />
-                                </li>
+                                    </ul>
+                                    {
+                                        diag.description ? <p className='regularText'>{diag.description}</p> : null
+                                    }
+                                </AccordionItem>
                             )
                         })
                     }
-                </ul>
+                </Accordion>
                 <h1>Terapie</h1>
-                <ul className='mainList'>
+                <Accordion transition transitionTimeout={250} className='mainList'>
                     {
                         therapies.map((ther, i) => {
                             let el_id = `ther${i}`;
+                            const [rotateChevron, setRotateChevron] = useState(false);
+                            const handleRotate = () => setRotateChevron(!rotateChevron);
                             return (
-                                <li key={i} id={el_id} className='item'>
-                                    <span className="therName">{ther.name}</span>
+                                <AccordionItem key={i} id={el_id} onClick={handleRotate} className='item' header={
+                                    <>
+                                    {ther.name}
+                                    <img src={chevronDown} className={`chevron-icon ${rotateChevron ? "rotate" : ""}`}/>
+                                    </>
+                                }>
                                     {
                                         ther.duration ? <p className="regularText">Czas trwania: {ther.duration}</p> : null
                                     }
@@ -92,14 +97,13 @@ const Services = () => {
                                             )
                                         }
                                     </ul>
-                                </li>
+                                </AccordionItem>
                             )
                         })
                     }
-                </ul>
+                </Accordion>
             </div>
         </section>
     );
 };
-
 export default Services;

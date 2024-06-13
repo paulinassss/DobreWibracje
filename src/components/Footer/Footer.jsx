@@ -31,7 +31,7 @@ const Footer = () => {
                 <div>
                   <Stack alignItems="center" direction="row" gap={0.5}>
                     <EmailIcon className="icon" />
-                    <Typography variant="body1"><a href="mailto:malgorzata.kindlik@op.pl"><span className="contactEl">malgorzata.kindlik@op.pl</span></a></Typography>
+                    <Typography variant="body1"><a href="mailto:kontakt@dobre-wibracje.pl"><span className="contactEl">kontakt@dobre-wibracje.pl</span></a></Typography>
                   </Stack>
                 </div>
               </div>

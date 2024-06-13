@@ -7,21 +7,22 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
+        <div className="App">
+          <Header />
 
-        <Routes>
-          <Route path="/" element={<><Hero /><Timeline /><Reviews /></>}/>
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<><Hero /><Timeline /><Reviews /></>}/>
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+          </Routes>
 
-        <Footer/>
-      </div>
+          <Footer/>
+        </div>
     </Router>
   );
 }

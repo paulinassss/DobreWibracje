@@ -1,4 +1,8 @@
 .h-wrapper {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
     color: rgb(0, 19, 0);
 }
 
@@ -77,6 +81,7 @@
     border: 2px solid rgb(216, 230, 205);
     border-top: none;
     letter-spacing: 0.07rem;
+    background-color: white;
 }
 
 .menu-icon {
