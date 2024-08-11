@@ -9,22 +9,26 @@ const Timeline = () => {
         <section className="flexCenter t-wrapper">
             <div className="innerWidth paddings flexSpace">
                 <div>
-                    <div className="ti">Diagnozy</div>
+                    <div className="ti">Nasza oferta</div>
                     <ul className="flexColStart2 diag diag1">
-                        <li><HashLink to="/services#diag0"><span>Podstawowa diagnoza logopedyczna</span></HashLink></li>
-                        <li><HashLink to="/services#diag1"><span>Pogłębiona diagnoza neurologopedyczna</span></HashLink></li>
-                        <li><HashLink to="/services#diag2"><span>Diagnoza jąkania i innych niepłynności mowy dla dzieci</span></HashLink></li>
-                        <li><HashLink to="/services#diag3"><span>Diagnoza jąkania i innych niepłynności mowy dla dorosłych</span></HashLink></li>
+                        <li><HashLink to="/services#diag0"><span>Neurologopeda</span></HashLink></li>
+                        <li><HashLink to="/services#diag1"><span>Psycholog</span></HashLink></li>
+                        <li><HashLink to="/services#diag3"><span>Terapia ręki</span></HashLink></li>
+                        <li><HashLink to="/services#diag3"><span>Terapia i wsparcie dzieci z afazją</span></HashLink></li>
+                        <li><HashLink to="/services#diag3"><span>Terapia małego dziecka z jąkaniem</span></HashLink></li>
                     </ul>
                 </div>
                 <div>
-                    <div className="ti">Terapie</div>
+                    <div className="ti"><br /></div>
                     <ul className="flexColStart2 diag diag2">
-                        <li><HashLink to="/services#ther0"><span>Terapia logopedyczna</span></HashLink></li>
-                        <li><HashLink to="/services#ther1"><span>Terapia miofunkcjonalna</span></HashLink></li>
-                        <li><HashLink to="/services#ther3"><span>Terapia neurologopedyczna</span></HashLink></li>
-                        <li><HashLink to="/services#ther4"><span>Terapia jąkania i innych niepłynności mowy</span></HashLink></li>
-                        <li><HashLink to="/services#ther4"><span>Grupowa terapia jąkania</span></HashLink></li>
+                    <li><HashLink to="/services#diag2"><span>Trening Umiejętności Społecznych (TUS)</span></HashLink></li>
+                    <li><HashLink to="/services#diag3"><span>Zajęcia ogólnorozwojowe dla dzieci w wieku 4-7 lat</span></HashLink></li>
+                    <li><HashLink to="/services#diag3"><span>Trening uważności i koncentracji uwagi
+                    </span></HashLink></li>
+                    <li><HashLink to="/services#diag3"><span>Trening umiejętności wychowawczych „Szkoła dla Rodziców i Wychowawców”
+                    </span></HashLink></li>
+                    <li><HashLink to="/services#diag3"><span>Cykliczne wydarzenia z zakresu edukacji, wsparcia i rozwoju dzieci i młodzieży
+                    </span></HashLink></li>
                     </ul>
                 </div>
             </div>

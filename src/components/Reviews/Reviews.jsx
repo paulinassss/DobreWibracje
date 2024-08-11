@@ -42,6 +42,7 @@ function Reviews() {
 						setReviews(place.reviews); // UPDATING STATE WITH REVIEWS RECEIVED
 						setRating(place.rating);
 						setNumber(place.user_ratings_total);
+						console.log(place.reviews);
 					}
 				}
 			);

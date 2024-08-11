@@ -20,7 +20,8 @@ const Hero = () => {
                     <div className="flexColStart hero-description">
                         <span className="secondaryText">Wiedza. Doświadczenie. Pasja. Zaangażowanie. <br />
                                                         Holistyczne spojrzenie na młodego człowieka. <br />
-                                                        Miejsce, w którym  słuchamy rodziców, słuchamy dzieci i „szeroko” na nie patrzymy.
+                                                        Miejsce, w którym  słuchamy rodziców, słuchamy dzieci i „szeroko” na nie patrzymy. <br />
+                                                        Szukamy najlepszych rozwiązań, które pozwolą na rozwój dziecka. <br />
                         </span>         
                     </div>
 
