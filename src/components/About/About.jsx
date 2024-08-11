@@ -79,7 +79,7 @@ const About = () => {
                     <p>
                         W ciągu wieloletniej pracy zawodowej nieustannie staram się rozwijać i zwiększać swoje kompetencje, zarówno w zakresie logopedii, neurologopedii, jak i obszarów dotyczących wychowania. Ukończyłam ponad 50  szkoleń i kursów.
                     </p>
-                    <p className='title'>Oto lista kursów i szkoleń:</p>
+                    <p className='title'>Oto lista moich kursów i szkoleń:</p>
                     <ol>
                         {
                             data.map((course, i) => {

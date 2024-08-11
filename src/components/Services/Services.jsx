@@ -4,7 +4,7 @@ import therapies from "../../utils/therapies.json";
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 import chevronDown from '../../../public/chevron.svg';
 import { useState } from 'react';
-import ScrollToTop from "./components/ScrollToTop";
+// import ScrollToTop from "./components/ScrollToTop";
 
 const Services = () => {
     return ( 

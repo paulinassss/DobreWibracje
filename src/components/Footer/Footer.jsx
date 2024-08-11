@@ -25,7 +25,7 @@ const Footer = () => {
                 <div>
                   <Stack alignItems="center" direction="row" gap={0.5}>
                     <LocationOnIcon className="icon" />
-                    <Typography  variant="body1"><a href={link} target="_blank"><span className="contactEl">Puchacza 2, 20-323 Lublin</span></a></Typography>
+                    <Typography  variant="body1"><a href={link} target="_blank"><span className="contactEl"> Garbarska 20, pokój 21, Lublin</span></a></Typography>
                   </Stack>
                 </div>
                 <div>

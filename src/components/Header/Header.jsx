@@ -29,8 +29,8 @@ const Header = () => {
                     }}>
                         <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
                             <Link to="/">Strona główna</Link>
-                            <Link to="/about">O mnie</Link>
                             <Link to="/services">Oferta</Link>
+                            <Link to="/about">O nas</Link>
                             <HashLink to="#contact">Kontakt</HashLink>
                         </div>
                     </OutsideClickHandler>
