@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import About_MK from "./components/About_MK/About_MK";
 import About_OLK from "./components/About_OLK/About_OLK";
+import Ther from "./components/Ther/Ther";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop";
@@ -24,6 +25,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/about_mk" element={<About_MK />} />
             <Route path="/about_olk" element={<About_OLK />} />
+            <Route path="/ther" element={<Ther />} />
           </Routes>
 
           <Footer/>

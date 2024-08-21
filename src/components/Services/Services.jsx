@@ -12,8 +12,6 @@ const Services = () => {
         <section className="services-wrapper">
             <h1 className='offerTitle'>Oferta Dobrych Wibracji</h1>
             <div className="paddings innerWidth flexColCenter services-container">
-                
-                
                 <h1>Diagnozy</h1>
                 <p className='diagName'>W dobrych wibracjach prowadzimy diagnozy logopedyczne, neurologpedyczne oraz psychologiczne.
                 <br /><br />Diagnoza jest konieczną podstawą rozpoczęcia terapii, opartej na stworzonym indywidualnym
@@ -22,7 +20,7 @@ const Services = () => {
                 <br />Po diagnozie może zostać wydana opinia logopedyczna/neurologopedyczna (czas oczekiwania
                 na dokument - do 7 dni) <br /><br /></p>
                 <ul className="diag item marginTop">
-                    <li><HashLink smooth to="/about_mk#mk"><span>Sprawdź pełną ofertę DIAGNOZ w Dobrych Wibracjach</span></HashLink></li>
+                    <li><HashLink smooth to="/diag#s"><span>Sprawdź pełną ofertę DIAGNOZ w Dobrych Wibracjach</span></HashLink></li>
                 </ul>
                 
                
@@ -34,7 +32,7 @@ const Services = () => {
                     neurologopedyczna (w przypadku osób z innymi zaburzeniami). <br /><br /> 
                     Terapia to cyklicze spotkania z terapeutą, podczas których realizowany jest program terapeutyczny. <br /><br /> </p>
                 <ul className="diag item marginTop">
-                    <li><HashLink smooth to="/about_mk#mk"><span>Sprawdź pełną ofertę TERAPII w Dobrych Wibracjach</span></HashLink></li>
+                    <li><HashLink smooth to="/ther#s"><span>Sprawdź pełną ofertę TERAPII w Dobrych Wibracjach</span></HashLink></li>
                 </ul>
 
                 <h1 className='marginTopp'>Zajęcia grupowe</h1>

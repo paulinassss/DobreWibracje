@@ -14,21 +14,29 @@
 }
 
 .item {
+    align-items: center;
+    text-align: center;
     margin-bottom: 1.5rem;
     border: 2px solid rgb(255, 226, 231, 0.5);
     border-radius: 15px;
 }
 
+.item li {
+  font-size: 1.2rem;
+}
+
+
+
 .mainList {
     margin-top: 0.7rem;
     list-style-type: none;
     width: 80%;
+    text-align: center;
 }
 
 .marginTop{
     margin-top: 1.5rem;
 }
-
 .marginTopp{
   margin-top: 5rem;
 }
@@ -50,6 +58,10 @@
     margin-right: 0.8rem;
     font-size: 1.5rem;
 ;
+}
+
+.marginBottom {
+  margin-bottom: 1.5rem;
 }
 
 .includesList {
@@ -128,6 +140,9 @@
     font-size: 1.2rem;
   }
 }
+
+
+
 
 .t-wrapper {
   margin-top: 3rem;
