@@ -4,104 +4,48 @@ import therapies from "../../utils/therapies.json";
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 import chevronDown from '../../../public/chevron.svg';
 import { useState } from 'react';
+import { HashLink } from "react-router-hash-link";
 // import ScrollToTop from "./components/ScrollToTop";
 
 const Services = () => {
     return ( 
         <section className="services-wrapper">
+            <h1 className='offerTitle'>Oferta Dobrych Wibracji</h1>
             <div className="paddings innerWidth flexColCenter services-container">
+                
+                
                 <h1>Diagnozy</h1>
-                <Accordion transition transitionTimeout={250} className='mainList'>
-                    {
-                        diagnosis.map((diag, i) => {
-                            let el_id = `diag${i}`;
-                            const [rotateChevron, setRotateChevron] = useState(false);
-                            const handleRotate = () => setRotateChevron(!rotateChevron);
-                            return (
-                                <AccordionItem key={i} id={el_id} onClick={handleRotate} className='item' header={
-                                    <>
-                                    {diag.name}
-                                    <img src={chevronDown} className={`chevron-icon ${rotateChevron ? "rotate" : ""}`}/>
-                                    </>
-                                }>
-                                    <p className="regularText">Czas trwania: {diag.duration}</p>
-                                    <p className="regularText">Spotkanie obejmuje: </p>
-                                    <ul className='includesList'>
-                                        {
-                                            (diag.includes).map((item, j) => {
-                                                return (
-                                                    <li key={j}>
-                                                        <span className="regularText">{item.name}</span>
-                                                        {
-                                                            item.duration ? <p className="regularText">Czas trwania: {item.duration}</p>: null
-                                                        }
-                                                        {
-                                                            item.description ? <p className="regularText">{item.description}</p>: null
-                                                        }
-                                                    </li>
-                                                )
-                                            })
-                                        }
-                                    </ul>
-                                    {
-                                        diag.description ? <p className='regularText'>{diag.description}</p> : null
-                                    }
-                                </AccordionItem>
-                            )
-                        })
-                    }
-                </Accordion>
-                <h1>Terapie</h1>
-                <Accordion transition transitionTimeout={250} className='mainList'>
-                    {
-                        therapies.map((ther, i) => {
-                            let el_id = `ther${i}`;
-                            const [rotateChevron, setRotateChevron] = useState(false);
-                            const handleRotate = () => setRotateChevron(!rotateChevron);
-                            return (
-                                <AccordionItem key={i} id={el_id} onClick={handleRotate} className='item' header={
-                                    <>
-                                    {ther.name}
-                                    <img src={chevronDown} className={`chevron-icon ${rotateChevron ? "rotate" : ""}`}/>
-                                    </>
-                                }>
-                                    {
-                                        ther.duration ? <p className="regularText">Czas trwania: {ther.duration}</p> : null
-                                    }
-                                    {
-                                        ther.includes.length > 0 ? <p className="regularText">Spotkanie obejmuje: </p> : null
-                                    }
-                                    <ul className='includesList'>
-                                        {
-                                            (ther.includes).map((item, j) => (
-                                                    <li key={j}>
-                                                        <span className="regularText">{item}</span>
-                                                    </li>
-                                                )
-                                            )
-                                        }
-                                    </ul>
-                                    {
-                                        ther.description ? <p className="regularText">{ther.description}</p> : null
-                                    }
-                                    {
-                                        ther.target.length > 0 ? <p className="regularText">Terapia jest skierowana do:</p> : null
-                                    }
-                                    <ul className='targetList'>
-                                        {
-                                            (ther.target).map((item, j) => (
-                                                    <li key={j}>
-                                                        <span className="regularText">{item}</span>
-                                                    </li>
-                                                )
-                                            )
-                                        }
-                                    </ul>
-                                </AccordionItem>
-                            )
-                        })
-                    }
-                </Accordion>
+                <p className='diagName'>W dobrych wibracjach prowadzimy diagnozy logopedyczne, neurologpedyczne oraz psychologiczne.
+                <br /><br />Diagnoza jest konieczną podstawą rozpoczęcia terapii, opartej na stworzonym indywidualnym
+                programie, dopasowanym do aktualnych potrzeb i możliwości danej osoby oraz do jej
+                aktualnego poziomu rozwoju mowy i komunikacji. <br />
+                <br />Po diagnozie może zostać wydana opinia logopedyczna/neurologopedyczna (czas oczekiwania
+                na dokument - do 7 dni) <br /><br /></p>
+                <ul className="diag item marginTop">
+                    <li><HashLink smooth to="/about_mk#mk"><span>Sprawdź pełną ofertę DIAGNOZ w Dobrych Wibracjach</span></HashLink></li>
+                </ul>
+                
+               
+
+                <h1 className='marginTopp'>Terapie</h1>
+                
+                <p className='diagName'>Podstawą rozpoczęcia terapii jest przeprowadzenie diagnozy podstawowej (w przypadku osób z
+                    wadami wymowy i zaburzeniami miofunkcjonalnymi) oraz pogłębionej diagnozy
+                    neurologopedyczna (w przypadku osób z innymi zaburzeniami). <br /><br /> 
+                    Terapia to cyklicze spotkania z terapeutą, podczas których realizowany jest program terapeutyczny. <br /><br /> </p>
+                <ul className="diag item marginTop">
+                    <li><HashLink smooth to="/about_mk#mk"><span>Sprawdź pełną ofertę TERAPII w Dobrych Wibracjach</span></HashLink></li>
+                </ul>
+
+                <h1 className='marginTopp'>Zajęcia grupowe</h1>
+                
+                <p className='diagName'> W Dobrych Wibracjach oferujemy również zajęcia grupowe, które są doskonałym uzupełnieniem terapii indywidualnej. <br /><br /> W zajęciach grupowych dzieci mają możliwość rozwijania swoich umiejętności językowych w grupie rówieśniczej, co sprzyja nawiązywaniu relacji społecznych, rozwijaniu umiejętności komunikacyjnych oraz współpracy z innymi dziećmi. <br /><br /> </p>
+
+                <ul className="diag item marginTop">
+                    <li><HashLink smooth to="/about_mk#mk"><span>Sprawdź pełną ofertę ZAJĘĆ GRUPOWYCH w Dobrych Wibracjach</span></HashLink></li>
+                </ul>
+
+
             </div>
         </section>
     );

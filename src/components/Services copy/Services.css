@@ -25,21 +25,6 @@
     width: 80%;
 }
 
-.marginTop{
-    margin-top: 1.5rem;
-}
-.marginTopp{
-  margin-top: 5rem;
-}
-
-.offerTitle {
-    font-weight: 500;
-    font-size: 4rem;
-    color: #004E08;
-    margin-bottom: 2rem;
-    text-align: center;
-    justify-content: center
-}
 
 .szh-accordion__item-btn::before {
     content: '\f00c';
@@ -48,7 +33,6 @@
     color: rgb(140, 185, 72);
     margin-right: 0.8rem;
     font-size: 1.5rem;
-;
 }
 
 .includesList {
@@ -127,60 +111,3 @@
     font-size: 1.2rem;
   }
 }
-
-
-
-
-.t-wrapper {
-  margin-top: 3rem;
-}
-.diag {
-  row-gap: 1rem;
-}
-
-.diag li {
-  position: relative;
-  font-size: 1.8rem;
-  animation: appear 0.3s forwards;
-  letter-spacing: 0.08rem;
-  display: block;
-} 
-
-.diag span::before {
-  content: '\f00c';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  color: rgb(140, 185, 72);
-  margin-right: 0.8rem;
-}
-
-.diag li::after {
-  content: '\f054';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 1000;
-  color: rgb(245, 148, 174);
-  margin-left: 0.8rem;
-  font-size: 1.3rem;
-}
-
-
-
-
-.diag1>:nth-child(1) {
-  opacity: 0;
-  animation-delay: 0.1s;
-}
-.diag1>:nth-child(2) {
-  opacity: 0;
-  animation-delay: 0.3s;
-}
-.diag1>:nth-child(3) {
-  opacity: 0;
-  animation-delay: 0.5s;
-}
-.diag1>:nth-child(4) {
-  opacity: 0;
-  animation-delay: 0.7s;
-}
-
-
