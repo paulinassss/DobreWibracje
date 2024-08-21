@@ -3,12 +3,12 @@ import "./Ther.css";
 
 const Ther = () => {
     return (
-        <section className="services-wrapper" id='s'>
-            <h1 className='offerTitle'>Terapie w Dobrych Wibracjach</h1>
+        <section className="services-wrapper">
+            <h1  id='s' className='offerTitle'>Terapie w Dobrych Wibracjach</h1>
             <div className="paddings innerWidth flexColCenter services-container">
             
             <div className="item paddings innerWidth">
-                <h1>TERAPIA NEUROLOGOPEDYCZNA:</h1>
+                <h1 className="item">TERAPIA NEUROLOGOPEDYCZNA</h1>
                 <p className="diagName"><strong>Czas trwania:</strong> 45 minut</p>
                 <p className="diagName marginTop ">Spotkanie obejmuje:</p>
                 <ul className="includesList">
@@ -29,7 +29,7 @@ const Ther = () => {
                 </ul>
             </div>
             <div className="item paddings innerWidth">
-            <h1>TERAPIA JĄKANIA U DZIECI W WIEKU PRZEDSZKOLNYM</h1>
+            <h1 className="item">TERAPIA JĄKANIA U DZIECI W WIEKU PRZEDSZKOLNYM</h1>
             <p className="diagName">Terapia interakcyjna rodzic-dziecko dla jąkających się dzieci w wieku do lat 7 metodą Palin PCI</p>
             <p className="diagName marginTop"><strong>Czas trwania sesji:</strong> 60 minut</p>
             <p className="diagName marginTop">Program obejmuje:</p>
@@ -43,7 +43,7 @@ const Ther = () => {
 
 
             <div className="item paddings innerWidth">
-                <h1>TERAPIA JĄKANIA U DZIECI, MŁODZIEŻY I DOROSŁYCH</h1>
+                <h1 className="item">TERAPIA JĄKANIA U DZIECI, MŁODZIEŻY I DOROSŁYCH</h1>
                 <p className="diagName"><strong>Czas trwania:</strong> 45 minut</p>
                 <p className="diagName marginTop">Spotkanie obejmuje:</p>
                 <ul className="includesList">
@@ -57,7 +57,7 @@ const Ther = () => {
             
 
             <div className="item paddings innerWidth">
-                <h1>TERAPIA I WSPARCIE DZIECI Z AFAZJĄ</h1>
+                <h1 className="item">TERAPIA I WSPARCIE DZIECI Z AFAZJĄ</h1>
                 <p className="diagName "><strong>Czas trwania:</strong> 45 minut</p>
                 <p className="diagName marginTop">Spotkanie obejmuje:</p>
                 <ul className="includesList">
@@ -70,6 +70,7 @@ const Ther = () => {
             </div>
             
             </div>
+            <h1 className='offerTitle'>Zadzwoń i umów się na wizytę!</h1>
         </section>
 
     );

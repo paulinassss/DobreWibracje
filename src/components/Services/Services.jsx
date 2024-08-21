@@ -12,20 +12,23 @@ const Services = () => {
         <section className="services-wrapper">
             <h1 className='offerTitle'>Oferta Dobrych Wibracji</h1>
             <div className="paddings innerWidth flexColCenter services-container">
-                <h1>Diagnozy</h1>
-                <p className='diagName'>W dobrych wibracjach prowadzimy diagnozy logopedyczne, neurologpedyczne oraz psychologiczne.
-                <br /><br />Diagnoza jest konieczną podstawą rozpoczęcia terapii, opartej na stworzonym indywidualnym
-                programie, dopasowanym do aktualnych potrzeb i możliwości danej osoby oraz do jej
-                aktualnego poziomu rozwoju mowy i komunikacji. <br />
-                <br />Po diagnozie może zostać wydana opinia logopedyczna/neurologopedyczna (czas oczekiwania
-                na dokument - do 7 dni) <br /><br /></p>
-                <ul className="diag item marginTop">
-                    <li><HashLink smooth to="/diag#s"><span>Sprawdź pełną ofertę DIAGNOZ w Dobrych Wibracjach</span></HashLink></li>
-                </ul>
+                <div className="item paddings innerWidth">
+                    <h1>DIAGNOZA</h1>
+                    <p className='diagName'>W Dobrych Wibracjach prowadzimy diagnozy logopedyczne, neurologpedyczne oraz psychologiczne.
+                    <br /><br />Diagnoza jest konieczną podstawą rozpoczęcia terapii, opartej na stworzonym indywidualnym
+                    programie, dopasowanym do aktualnych potrzeb i możliwości danej osoby oraz do jej
+                    aktualnego poziomu rozwoju mowy i komunikacji. <br />
+                    <br />Po diagnozie może zostać wydana opinia logopedyczna/neurologopedyczna (czas oczekiwania
+                    na dokument - do 7 dni) <br /><br /></p>
+                    <ul className="diag item marginTop">
+                        <li><HashLink smooth to="/diag#s"><span>Sprawdź pełną ofertę DIAGNOZ w Dobrych Wibracjach</span></HashLink></li>
+                    </ul>
+                </div>
+               
                 
                
-
-                <h1 className='marginTopp'>Terapie</h1>
+                <div className="item paddings innerWidth">
+                <h1 className=''>TERAPIA</h1>
                 
                 <p className='diagName'>Podstawą rozpoczęcia terapii jest przeprowadzenie diagnozy podstawowej (w przypadku osób z
                     wadami wymowy i zaburzeniami miofunkcjonalnymi) oraz pogłębionej diagnozy
@@ -34,17 +37,20 @@ const Services = () => {
                 <ul className="diag item marginTop">
                     <li><HashLink smooth to="/ther#s"><span>Sprawdź pełną ofertę TERAPII w Dobrych Wibracjach</span></HashLink></li>
                 </ul>
+                </div>
 
-                <h1 className='marginTopp'>Zajęcia grupowe</h1>
+                <div className="item paddings innerWidth">
+                <h1 className=''>ZAJĘCIA GRUPOWE</h1>
                 
                 <p className='diagName'> W Dobrych Wibracjach oferujemy również zajęcia grupowe, które są doskonałym uzupełnieniem terapii indywidualnej. <br /><br /> W zajęciach grupowych dzieci mają możliwość rozwijania swoich umiejętności językowych w grupie rówieśniczej, co sprzyja nawiązywaniu relacji społecznych, rozwijaniu umiejętności komunikacyjnych oraz współpracy z innymi dziećmi. <br /><br /> </p>
 
                 <ul className="diag item marginTop">
-                    <li><HashLink smooth to="/about_mk#mk"><span>Sprawdź pełną ofertę ZAJĘĆ GRUPOWYCH w Dobrych Wibracjach</span></HashLink></li>
+                    <li><HashLink smooth to="/group#s"><span>Sprawdź pełną ofertę ZAJĘĆ GRUPOWYCH w Dobrych Wibracjach</span></HashLink></li>
                 </ul>
-
+                </div>
 
             </div>
+            <h1 className='offerTitle'>Zadzwoń i umów się na wizytę!</h1>
         </section>
     );
 };
